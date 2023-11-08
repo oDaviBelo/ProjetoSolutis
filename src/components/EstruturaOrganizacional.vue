@@ -1,5 +1,5 @@
 <template>
-    <section id="global">
+    <section id="estrutura">
         <h2>Estrutura Organizacional [vazio]</h2>
     </section>
 </template>

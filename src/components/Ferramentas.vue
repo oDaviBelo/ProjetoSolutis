@@ -1,5 +1,5 @@
 <template>
-    <section id="global">
+    <section id="ferramentas">
         <h2>Ferramentas</h2>
         <div class="tools">
             <div>
@@ -11,16 +11,31 @@
             <div>
                 <img src="../assets/microsip.png" alt="">
             </div>
+            <div>
+                <img src="../assets/powerbi.png" alt="">
+            </div>
+            <div>
+                <img src="../assets/excel.png" alt="">
+            </div>
+            <div> 
+                <!--Adicionar LOGO GSERV-->
+                <img src="../assets/insiraaqui" alt="">
+            </div>
+            <div>
+                <!--Adicionar LOGO hermes itoc-->
+                <img src="../assets/insiraaqui" alt="">
+            </div>
         </div>
     </section>
 </template>
 
 <style scoped>
-#global{
+#ferramentas{
     display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5rem;
 }
     .tools{
         display: flex;

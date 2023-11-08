@@ -1,5 +1,7 @@
 <template>
-    <section id="global">
+    
+    <section id="contrato">
+        
         <div id="escopodoContrato"> 
             <h2>Escopo do Contrato</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae facere vel eligendi tempore laborum, minus ipsum similique at,
@@ -31,13 +33,14 @@
 </template>
 
 <style scoped>
-    #global{
+    #contrato{
         display: flex;
         flex-direction: column;
         justify-content: center;
-       background: #161922;
-       color: #ccc;
+       background: #0075bd;
+       color: #fff;
        padding-bottom: 3rem;
+       padding: 10rem;
     }
 
     #escopodoContrato{

@@ -1,12 +1,12 @@
 <template>
     <div>
-        <section>
+        <section id="apresentacao">
             <h1>Secretaria de Educação da Bahia</h1>
             <h2>Coordernação</h2>
             <div id="lider">
                 <div class="card">
                     <h3>Líder</h3>
-                <img src="../assets/ueslei.jpeg" alt="">
+                <img src="../assets/ueslei.jpeg" alt="" mouseover="handleMouse()">
                 <h4>{{lider}}</h4>
                 </div>
             </div>
@@ -62,7 +62,7 @@
 <style scoped>
     
     section{
-        background-color: #283142;
+        background-color: #0075bd;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -95,17 +95,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(244, 244, 243, 1);
+        background-color: rgba(256, 256, 256, 1);
         margin: 0.5rem;
         border-radius: 1rem 1rem 1rem 1rem;
         width: 10vw;
         padding: 1rem;
         color:#2c2c2c;
-        
+        position: relative;
+        transition: transform 1s ease, z-index 0.1s ease;
     }
 
     .card:hover{
         transform: scale(1.05);
+        transform: rotateY(180deg);
     }
     img{
         height: 8rem;
@@ -128,6 +130,19 @@
         liderado8:"Cauly",
 
     }
+  },mouted(){
+    var card = document.querySelector('.card');
+    card.addEventListener('mouseover',this.handleMouse)
+  },methods:{
+    handleMouse(){
+    console.log('oi')
+    },
   }
+
+  
   }
+  
 </script>
+
+
+  

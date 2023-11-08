@@ -8,6 +8,8 @@ import Canais from './components/CanaisdeAtendimento.vue'
 import Ferramentas from './components/Ferramentas.vue'
 import Volumetria from './components/Volumetria.vue'
 import Indicadores from './components/Indicadores.vue'
+import Auditoria from './components/Auditoria.vue'
+
 import Automacao from './components/Automacao.vue'
 
 
@@ -26,6 +28,7 @@ import Automacao from './components/Automacao.vue'
     <Ferramentas />
     <Volumetria />
     <Indicadores />
+    <Auditoria />
     <Automacao />
   </div>
   

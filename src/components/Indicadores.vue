@@ -1,8 +1,11 @@
 <template>
-    <div id="global">
+    <div id="indicadores">
         <h3>Indicadores</h3>
+        <!--add grafico-->
+        <img src="" alt="">
         <h4>Telefonia</h4>
-
+        <!--add grafico-->
+        <img src="" alt="">
     </div>
 </template>
 

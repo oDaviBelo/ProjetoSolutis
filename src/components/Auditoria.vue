@@ -1,6 +1,6 @@
 <template>
-    <div id="automação">
-        <h3>Automação</h3>
+    <div id="auditoria">
+        <h3>Auditoria</h3>
       <!--add grafico-->
         <img src="" alt="">
 
@@ -14,6 +14,6 @@
 
 <script>
   export default {
-    name: "Automacao"
+    name: "Auditoria"
   }
 </script>
